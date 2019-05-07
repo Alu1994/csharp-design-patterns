@@ -7,7 +7,7 @@ namespace DesignPatters_2.Example2
 {
     internal class Start
     {
-        static void Main(string[] args)
+        static void Mains(string[] args)
         {
             var me = new Person().New
                 .Called("Matheus")
