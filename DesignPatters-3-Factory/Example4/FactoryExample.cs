@@ -5,7 +5,7 @@ namespace DesignPatters_3_Factory.Example4
 {
     class FactoryExample4
     {
-        static void Main(string[] args)
+        static void Mains(string[] args)
         {
             // Inner Class Factory
             var point = Point.Factory.NewPolarPoint(1.0, Math.PI / 2);
@@ -28,7 +28,7 @@ namespace DesignPatters_3_Factory.Example4
             return $"{nameof(x)}: {x}, {nameof(y)}: {y}";
         }
 
-        // Prop - Transient - Instanciate Multiple TImes
+        // Prop - Transient - Instanciate Multiple Times
         public static Point Origin => new Point(0, 0);
 
         // Field - Singleton - Instanciate One Time
