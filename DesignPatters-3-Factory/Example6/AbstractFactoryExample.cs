@@ -6,7 +6,7 @@ namespace DesignPatters_3_Factory.Example6
 {
     public class AbstractFactoryExample
     {
-        static void Main(string[] args)
+        static void Mains(string[] args)
         {
             var machine = new HotDrinkMachine();
             var drink = machine.MakeDrink();
