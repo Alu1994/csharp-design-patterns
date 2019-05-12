@@ -1,5 +1,5 @@
 # csharp-design-patterns
-It is a udemy course to fix the Design Patterns in C#
+It is a udemy course to understand more about Design Patterns in C#
 
 ## Section: 0
 Introduction
