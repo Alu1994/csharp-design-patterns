@@ -8,7 +8,7 @@ namespace DesignPatters_4_Prototype.Example4
 {
     public class PrototypeExampleDeepCopySerialization
     {
-        static void Main(string[] args)
+        static void Mains(string[] args)
         {
             var john = new Person(new[] { "John", "Smith" }, 
                                   new Address("London Road", 123));
