@@ -7,6 +7,7 @@ namespace DesignPatters_7_Bridge.Exercise
     {
         static void Main(string[] args)
         {
+            WriteLine("Teste");
             WriteLine(new Square(new VectorRenderer()));
             WriteLine(new Triangle(new RasterRenderer()));
         }
