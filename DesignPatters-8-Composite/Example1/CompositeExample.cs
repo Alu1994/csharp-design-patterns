@@ -9,7 +9,7 @@ namespace DesignPatters_8_Composite.Example1
 {
     public class CompositeExample
     {
-        static void Main(string[] args)
+        static void Mains(string[] args)
         {
             var drawing = new GraphicObject {Name = "My Drawing"};
             drawing.Children.Add(new Square {Color = "Red"});
