@@ -27,6 +27,13 @@ Bridge
 
 ## Section: 8
 Composite
+	### Observacoes
+		Adicionando padrao composite
+
+		pelo que eu entendi, acredito que sempre que tiver um objeto simples e uma 'lista' ou melhor dizendo, um objeto composto por muitos objetos de um mesmo tipo.
+
+		para facilitar a manipulacao desses objetos e sincroniza-los entre si, uma solucao viavel pode ser o padrao 'composite'
+
 
 ## Section: 9
 Decorator
