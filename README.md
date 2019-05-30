@@ -37,6 +37,12 @@ Composite
 
 ## Section: 9
 Decorator
+	### Observacoes
+		Adicionando padrao decorator
+
+		pelo que eu entendi, acredito que sempre que houver necessidade de herança multipla e/ou eu quiser herdar comportamentos de outro objeto e adicionar mais features.
+
+		um caminho interessante seria usar o padrão decorator
 
 ## Section: 10
 Façade
