@@ -6,4 +6,9 @@
     <RootNamespace>DesignPatters_17_Mediator</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.2" />
+    <PackageReference Include="System.Reactive.Linq" Version="4.1.5" />
+  </ItemGroup>
+
 </Project>
