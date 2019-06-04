@@ -123,7 +123,7 @@ namespace DesignPatters_17_Mediator.Example2
 
         public class Demo
         {
-            static void Main(string[] args)
+            static void Mains(string[] args)
             {
                 var cb = new ContainerBuilder();
                 cb.RegisterType<EventBroker>().SingleInstance();
