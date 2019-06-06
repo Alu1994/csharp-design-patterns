@@ -10,7 +10,8 @@ The SOLID Design Principles
 Uma classe ou método não deve ter mais de uma responsabilidade.
 
 ### - Interface Segragation Principle: 
-Uma interface não deve obrigar seus implementadores utilizarem métodos e propriedades que não são pertinentes para seus respectivos escopos.
+As interfaces que especificam as funcionalidades de seus implementadores devem ser criadas de forma granular, 
+para não obrigar os implementadores a criarem especificações de funções que não façam parte de seu escopo.
 	
 ### - Lisvok Substitution Principle: 
 Classes que serão herdadas devem ser criados de uma maneira que seja possivel fazer uma reescrita de seus métodos e propriedades sem impactar o comportamento do objeto original caso exista.
@@ -64,6 +65,8 @@ Bridge
 
 ## Section: 10
 Façade
+- Pelo que eu entendi, acredito que uma Façade, seria uma camada de abstração de uma feature/negócio muito complexa, que não se
+faz necessária a sua exposição toda à todos os seus implementadores, mas sendo possível caso necessário a sua utilização em sua forma completa.
 
 ## Section: 11
 Flyweight
