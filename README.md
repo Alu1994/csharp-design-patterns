@@ -6,6 +6,31 @@ Introduction
 
 ## Section: 1
 The SOLID Design Principles
+	### - Single Responsability Principle (SRP) : Uma classe ou método não deve ter mais de uma responsabilidade.
+
+	### - Interfaace Segragation Principle	    : Uma interface não deve obrigar seus implementadores utilizarem 
+		métodos e propriedades que não são pertinentes para seus respectivos escopos.
+	
+	### - Lisvok Substitution Principle 		: Classes que serão herdadas devem ser criados de uma maneira que seja possivel
+		fazer uma reescrita de seus métodos e propriedades sem impactar o comportamento do objeto original caso exista.
+	```
+		public class Parent
+		{
+			public virtual void X()
+			{
+				x = y + y;
+			}
+		}
+
+		public class Child : Parent
+		{	
+			public override void X()
+			{
+				x = (y + y)	* 2;
+			}
+		}
+	```
+
 
 ## Section: 2
 Builder
