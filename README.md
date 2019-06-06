@@ -65,7 +65,8 @@ public class Child : Parent
 ## Section: 10
 ### Façade
 - Pelo que eu entendi, acredito que uma Façade, seria uma camada de abstração de uma feature/negócio muito complexa, que não se
-faz necessária a sua exposição toda à todos os seus implementadores, mas sendo possível caso necessário a sua utilização em sua forma completa.
+faz necessária a sua exposição toda à todos os seus consumidores, mas sendo possível caso necessário a sua utilização em sua forma completa.
+- O Façade define uma interface de nível superior que facilita o uso do subsistema.
 
 ## Section: 11
 ### Flyweight
