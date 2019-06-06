@@ -5,7 +5,7 @@ It is a udemy course to understand more about Design Patterns in C#
 ## Introduction
 
 ## Section: 1
-The SOLID Design Principles
+### The SOLID Design Principles
 ### - Single Responsability Principle (SRP):
 Uma classe ou método não deve ter mais de uma responsabilidade.
 
