@@ -9,7 +9,7 @@ The SOLID Design Principles
 ### - Single Responsability Principle (SRP):
 Uma classe ou método não deve ter mais de uma responsabilidade.
 
-### - Interfaace Segragation Principle: 
+### - Interface Segragation Principle: 
 Uma interface não deve obrigar seus implementadores utilizarem métodos e propriedades que não são pertinentes para seus respectivos escopos.
 	
 ### - Lisvok Substitution Principle: 
@@ -54,23 +54,13 @@ Adapter
 Bridge
 
 ## Section: 8
-Composite
-	### Observacoes
-		Adicionando padrao composite
-
-		pelo que eu entendi, acredito que sempre que tiver um objeto simples e uma 'lista' ou melhor dizendo, um objeto composto por muitos objetos de um mesmo tipo.
-
-		para facilitar a manipulacao desses objetos e sincroniza-los entre si, uma solucao viavel pode ser o padrao 'composite'
+### Composite
+- Pelo que eu entendi, acredito que sempre que tiver um objeto simples e uma 'lista' ou melhor dizendo, um objeto composto por muitos objetos de um mesmo tipo. Para facilitar a manipulacao desses objetos e sincroniza-los entre si, uma solucao viavel pode ser o padrão 'composite'.
 
 
 ## Section: 9
-Decorator
-	### Observacoes
-		Adicionando padrao decorator
-
-		pelo que eu entendi, acredito que sempre que houver necessidade de herança multipla e/ou eu quiser herdar comportamentos de outro objeto e adicionar mais features.
-
-		um caminho interessante seria usar o padrão decorator
+### Decorator
+- Pelo que eu entendi, acredito que sempre que houver necessidade de herança multipla e/ou eu quiser herdar comportamentos de outro objeto e adicionar mais features. Um caminho interessante seria usar o padrão 'decorator'.
 
 ## Section: 10
 Façade
