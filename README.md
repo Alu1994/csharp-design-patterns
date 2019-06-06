@@ -9,7 +9,7 @@ The SOLID Design Principles
 ### - Single Responsability Principle (SRP):
 Uma classe ou método não deve ter mais de uma responsabilidade.
 
-### - Interface Segragation Principle: 
+### - Interface Segregation Principle: 
 As interfaces que especificam as funcionalidades de seus implementadores devem ser criadas de forma granular, 
 para não obrigar os implementadores a criarem especificações de funções que não façam parte de seu escopo.
 	
