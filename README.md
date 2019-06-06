@@ -2,7 +2,7 @@
 It is a udemy course to understand more about Design Patterns in C#
 
 ## Section: 0
-Introduction
+## Introduction
 
 ## Section: 1
 The SOLID Design Principles
@@ -35,24 +35,23 @@ public class Child : Parent
 }
 ```
 
-
 ## Section: 2
-Builder
+### Builder
 
 ## Section: 3
-Factories
+### Factories
 
 ## Section: 4
-Prototype
+### Prototype
 
 ## Section: 5
-Singleton
+### Singleton
 
 ## Section: 6
-Adapter
+### Adapter
 
 ## Section: 7
-Bridge
+### Bridge
 
 ## Section: 8
 ### Composite
@@ -64,55 +63,55 @@ Bridge
 - Pelo que eu entendi, acredito que sempre que houver necessidade de herança multipla e/ou eu quiser herdar comportamentos de outro objeto e adicionar mais features. Um caminho interessante seria usar o padrão 'decorator'.
 
 ## Section: 10
-Façade
+### Façade
 - Pelo que eu entendi, acredito que uma Façade, seria uma camada de abstração de uma feature/negócio muito complexa, que não se
 faz necessária a sua exposição toda à todos os seus implementadores, mas sendo possível caso necessário a sua utilização em sua forma completa.
 
 ## Section: 11
-Flyweight
+### Flyweight
 
 ## Section: 12
-Proxy
+### Proxy
 
 ## Section: 13
-Chain of Responsibility
+### Chain of Responsibility
 
 ## Section: 14
-Command
+### Command
 
 ## Section: 15
-Interpreter
+### Interpreter
 
 ## Section: 16
-Iterator
+### Iterator
 
 ## Section: 17
 ### Mediator
 - Pelo que eu entendi, acredito que o padrão mediator serve para comunicação entre entidades que possuem relacionamento, porém não podem estar fortemente referenciadas umas nas outras. Um caminho interessante seria usar o padrão mediator, assim cada "broker" ou "handler" tem por missão fazer a comunicação entre essas entidades ou objetos.
 
 ## Section: 18
-Memento
+### Memento
 
 ## Section: 19
-Null Object
+### Null Object
 
 ## Section: 20
-Observer
+### Observer
 
 ## Section: 21
-State
+### State
 
 ## Section: 22
-Strategy
+### Strategy
 
 ## Section: 23
-Template Method
+### Template Method
 
 ## Section: 24
-Visitor
+### Visitor
 
 ## Section: 25
-Course Summary
+### Course Summary
 
 ## Section: 26
-Bonus Lectures
+### Bonus Lectures
