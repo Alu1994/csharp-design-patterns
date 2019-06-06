@@ -13,7 +13,7 @@ The SOLID Design Principles
 	
 	### - Lisvok Substitution Principle 		: Classes que serão herdadas devem ser criados de uma maneira que seja possivel
 		fazer uma reescrita de seus métodos e propriedades sem impactar o comportamento do objeto original caso exista.
-	```
+	´´´
 		public class Parent
 		{
 			public virtual void X()
@@ -29,7 +29,7 @@ The SOLID Design Principles
 				x = (y + y)	* 2;
 			}
 		}
-	```
+	´´´
 
 
 ## Section: 2
