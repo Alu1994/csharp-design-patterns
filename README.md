@@ -29,7 +29,7 @@ public class Child : Parent
 {	
 	public override void X()
 	{
-		x = (y + y)	* 2;
+		x = (y + y) * 2;
 	}
 }
 ```
