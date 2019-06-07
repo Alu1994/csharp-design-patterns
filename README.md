@@ -9,12 +9,8 @@ It is a udemy course to understand more about Design Patterns in C#
 ### - Single Responsability Principle (SRP):
 Uma classe ou método não deve ter mais de uma responsabilidade.
 
-### - Interface Segregation Principle: 
-As interfaces que especificam as funcionalidades de seus implementadores devem ser criadas de forma granular, 
-para não obrigar os implementadores a criarem especificações de funções que não façam parte de seu escopo.
-	
-### - Lisvok Substitution Principle: 
-Classes que serão herdadas devem ser criados de uma maneira que seja possivel fazer uma reescrita de seus métodos e propriedades sem impactar o comportamento do objeto original caso exista.
+### - Liskov Substitution Principle: 
+Classes que serão herdadas devem ser criadas de uma maneira que seja possível fazer uma reescrita de seus métodos e propriedades sem impactar o comportamento do objeto PAI.
 
 Liskov Ex: 
 ```
@@ -34,6 +30,10 @@ public class Child : Parent
 	}
 }
 ```
+
+### - Interface Segregation Principle: 
+As interfaces que especificam as funcionalidades de seus implementadores devem ser criadas de forma granular, 
+para não obrigar os implementadores a criarem especificações de funções que não façam parte de seu escopo.
 
 ## Section: 2
 ### Builder
