@@ -39,6 +39,9 @@ public class Child : Parent
 As interfaces que especificam as funcionalidades de seus implementadores devem ser criadas de forma granular, 
 para não obrigar os implementadores a criarem especificações de funções que não façam parte de seu escopo.
 
+### - Dependency Inversion Principle: 
+Dada uma propriedade/field que desejamos que seja privada, porém acessivel, devemos implementar um acessor(interface/método) para somente acessar seu valor.
+
 ## Section: 2
 ### Builder
 
