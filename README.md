@@ -15,6 +15,7 @@ Porém ele deve estar aberto para extensões, como por exemplo estar habilitado 
 
 ### - Liskov Substitution Principle: 
 Classes que serão herdadas devem ser criadas de uma maneira que seja possível fazer uma reescrita de seus métodos e propriedades sem impactar o comportamento do objeto PAI.
+Basicamente o Pai pelo Filho e o Filho pelo Pai.
 
 Liskov Ex: 
 ```
