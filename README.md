@@ -237,3 +237,7 @@ namespace DesignPatters_11_Flyweight_2.Exercise
 
 ## Section: 26
 ### Bonus Lectures
+
+
+## Usefull Links
+- [GOF Explanation](https://springframework.guru/gang-of-four-design-patterns/)
