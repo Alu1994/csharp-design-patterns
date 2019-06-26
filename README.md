@@ -248,3 +248,8 @@ namespace DesignPatters_11_Flyweight_2.Exercise
 - [GOF Explanation](https://springframework.guru/gang-of-four-design-patterns/)
 - [Null Object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern/)
 - [Udemy Course - Design Patterns in C# and .NET](https://www.udemy.com/design-patterns-csharp-dotnet/)
+
+# Agradecimentos
+- Thank you @nesteruk for the exceptional course, it is being amazing learning all that good stuff!
+- Obrigado @ecezareti pelos ensinamentos e pelas várias dicas de estudos que tive ao longo do tempo em que estivemos no mesmo time, e que até hoje segue me instruindo. Com você tive um incrivel exemplo de profissional e de mentor (mesmo me zuando muito kkk) que espero levar comigo por toda minha carreira, e que com o tempo eu consigo distribuir com outras pessoas, da mesma maneira que foi feito comigo.
+- Obrigado à todos os meus colegas de trabalho até o presente momento, sei que aprendi com todos, mesmo que tenha sido pelo menos um **if** rs.
