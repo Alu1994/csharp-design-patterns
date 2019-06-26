@@ -44,7 +44,7 @@ para não obrigar os implementadores a criarem especificações de funções que
 - Dada uma propriedade/field que desejamos que seja privada, porém acessivel, devemos implementar um acessor(interface/método) para somente acessar seu valor.
 
 ## Section: 2
-### - Builder (Creational Pattern)
+### Builder (Creational Pattern)
 - É um padrão que auxilia na criação de um objeto, a partir de pedaços menores, fazendo a construção pedaço por pedaço.
 
 Ex:
