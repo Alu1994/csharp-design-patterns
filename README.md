@@ -138,6 +138,8 @@ faz necessária a sua exposição toda à todos os seus consumidores, mas sendo 
 ## Section: 11
 ### Flyweight
 - Quando um dado/objeto é replicado e você somente precisa da "referencia" dele, uma maneira de tratar esse caso seria usando o Pattern Flyweight.
+- É colocar uma camada a mais para responder por outra q pode sofrer latência.
+- Exemplo você tem uma api de clientes q demora 10 seg para responder e vc tem q consultar o mesmo cliente, sendo que o dado dele não muda. Então utilizando o fly para guardar a primeira chamada e responder às seguintes com o mesmo dado você resolveria esse problema de latencia.
 
 Ex:
 ```	
