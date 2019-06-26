@@ -1,7 +1,7 @@
 # Design Patterns in C#
 
 ## Introduction
-- It is a udemy course to understand more about SOLID and Design Patterns in C#, based on GOF and Uncle Bob Books.
+- This repository has the mission to gather all the knowlegde of what i understood about SOLID and Design Patterns in C# from a Udemy Course, that was based on GOF and Uncle Bob Books.
 
 # The SOLID Design Principles
 
@@ -234,14 +234,17 @@ namespace DesignPatters_11_Flyweight_2.Exercise
 ## Section: 24
 ### Visitor (Behavioral Pattern)
 
+# Conclusion
+
 ## Section: 25
 ### Course Summary
+
+# Bonus
 
 ## Section: 26
 ### Bonus Lectures
 
-
-## Usefull Links
+# Usefull Links
 - [GOF Explanation](https://springframework.guru/gang-of-four-design-patterns/)
-- [Null Object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern)
+- [Null Object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern/)
 - [Udemy Course - Design Patterns in C# and .NET](https://www.udemy.com/design-patterns-csharp-dotnet/)
