@@ -1,7 +1,7 @@
 # csharp-design-patterns
 
 <p align="center">
-  <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF_2.png" />
+  <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF.png" />
 </p>
 
 ## Section: 0
@@ -110,36 +110,36 @@ public class Program
 ```
 
 ## Section: 3
-### Factories
+### Factories (Creational Pattern)
 
 ## Section: 4
-### Prototype
+### Prototype (Creational Pattern)
 
 ## Section: 5
-### Singleton
+### Singleton (Creational Pattern)
 
 ## Section: 6
-### Adapter
+### Adapter (Structural Pattern)
 
 ## Section: 7
-### Bridge
+### Bridge (Structural Pattern)
 
 ## Section: 8
-### Composite
+### Composite (Structural Pattern)
 - Pelo que eu entendi, acredito que sempre que tiver um objeto simples e uma 'lista' ou melhor dizendo, um objeto composto por muitos objetos de um mesmo tipo. Para facilitar a manipulacao desses objetos e sincroniza-los entre si, uma solucao viavel pode ser o padrão 'composite'.
 
 
 ## Section: 9
-### Decorator
+### Decorator (Structural Pattern)
 - Pelo que eu entendi, acredito que sempre que houver necessidade de herança multipla e/ou eu quiser herdar comportamentos de outro objeto e adicionar mais features. Um caminho interessante seria usar o padrão 'decorator'.
 
 ## Section: 10
-### Façade
+### Façade (Structural Pattern)
 - Pelo que eu entendi, acredito que uma Façade, seria uma camada de abstração de uma feature/negócio muito complexa, que não se faz necessária a sua exposição toda à todos os seus consumidores, mas sendo possível caso necessário a sua utilização em sua forma completa.
 - O Façade define uma interface de nível superior que facilita o uso do subsistema.
 
 ## Section: 11
-### Flyweight
+### Flyweight (Structural Pattern)
 - Quando um dado/objeto é replicado e você somente precisa da "referencia" dele, uma maneira de tratar esse caso seria usando o Pattern Flyweight.
 - O Flyweight seria uma camada a mais para responder por outra que pode sofrer latência.
 - Um bom exemplo seria uma api de clientes, ela demora 10 segundos para responder e temos tem que consultar o mesmo cliente, sendo que o dado dele não muda. Então se utilizado o pattern flyweight nesse caso, para guardar a primeira chamada e responder às seguintes com o mesmo dado, você conseguiria resolveria esse problema de latência e somente buscaria dados na base principal, caso esse dado não estivesse em memória.
