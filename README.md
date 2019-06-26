@@ -1,8 +1,8 @@
 # csharp-design-patterns
-It is a udemy course to understand more about Design Patterns in C#
 
 ## Section: 0
 ## Introduction
+- It is a udemy course to understand more about Design Patterns in C#, based on GOF and Uncle Bob Books.
 
 ## Section: 1
 ### The SOLID Design Principles
@@ -131,15 +131,14 @@ public class Program
 
 ## Section: 10
 ### Façade
-- Pelo que eu entendi, acredito que uma Façade, seria uma camada de abstração de uma feature/negócio muito complexa, que não se
-faz necessária a sua exposição toda à todos os seus consumidores, mas sendo possível caso necessário a sua utilização em sua forma completa.
+- Pelo que eu entendi, acredito que uma Façade, seria uma camada de abstração de uma feature/negócio muito complexa, que não se faz necessária a sua exposição toda à todos os seus consumidores, mas sendo possível caso necessário a sua utilização em sua forma completa.
 - O Façade define uma interface de nível superior que facilita o uso do subsistema.
 
 ## Section: 11
 ### Flyweight
 - Quando um dado/objeto é replicado e você somente precisa da "referencia" dele, uma maneira de tratar esse caso seria usando o Pattern Flyweight.
-- É colocar uma camada a mais para responder por outra q pode sofrer latência.
-- Exemplo você tem uma api de clientes q demora 10 seg para responder e vc tem q consultar o mesmo cliente, sendo que o dado dele não muda. Então utilizando o fly para guardar a primeira chamada e responder às seguintes com o mesmo dado você resolveria esse problema de latencia.
+- O Flyweight seria uma camada a mais para responder por outra que pode sofrer latência.
+- Um bom exemplo seria uma api de clientes, ela demora 10 segundos para responder e temos tem que consultar o mesmo cliente, sendo que o dado dele não muda. Então se utilizado o pattern flyweight nesse caso, para guardar a primeira chamada e responder às seguintes com o mesmo dado, você conseguiria resolveria esse problema de latência e somente buscaria dados na base principal, caso esse dado não estivesse em memória.
 
 Ex:
 ```	
