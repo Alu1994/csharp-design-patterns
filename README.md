@@ -1,4 +1,4 @@
-# csharp-design-patterns
+# Design Patterns in C#
 
 <p align="center">
   <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF.png" />
@@ -8,8 +8,9 @@
 ## Introduction
 - It is a udemy course to understand more about Design Patterns in C#, based on GOF and Uncle Bob Books.
 
+# The SOLID Design Principles
+
 ## Section: 1
-### The SOLID Design Principles
 ### - Single Responsibility Principle (SRP):
 - Uma classe ou método não deve ter mais de uma responsabilidade.
 
@@ -46,6 +47,8 @@ para não obrigar os implementadores a criarem especificações de funções que
 
 ### - Dependency Inversion Principle: 
 - Dada uma propriedade/field que desejamos que seja privada, porém acessivel, devemos implementar um acessor(interface/método) para somente acessar seu valor.
+
+# Design Patterns
 
 ## Section: 2
 ### Builder (Creational Pattern)
