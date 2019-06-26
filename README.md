@@ -4,7 +4,6 @@
   <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF.png" />
 </p>
 
-## Section: 0
 ## Introduction
 - It is a udemy course to understand more about Design Patterns in C#, based on GOF and Uncle Bob Books.
 
