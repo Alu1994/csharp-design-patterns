@@ -193,44 +193,44 @@ namespace DesignPatters_11_Flyweight_2.Exercise
 ```
 
 ## Section: 12
-### Proxy
+### Proxy (Structural Pattern)
 
 ## Section: 13
-### Chain of Responsibility
+### Chain of Responsibility (Behavioral Pattern)
 
 ## Section: 14
-### Command
+### Command (Behavioral Pattern)
 
 ## Section: 15
-### Interpreter
+### Interpreter (Behavioral Pattern)
 
 ## Section: 16
-### Iterator
+### Iterator (Behavioral Pattern)
 
 ## Section: 17
-### Mediator
+### Mediator (Behavioral Pattern)
 - Pelo que eu entendi, acredito que o padrão mediator serve para comunicação entre entidades que possuem relacionamento, porém não podem estar fortemente referenciadas umas nas outras. Um caminho interessante seria usar o padrão mediator, assim cada "broker" ou "handler" tem por missão fazer a comunicação entre essas entidades ou objetos.
 
 ## Section: 18
-### Memento
+### Memento (Behavioral Pattern)
 
 ## Section: 19
-### Null Object
+### Null Object (Behavioral Pattern)
 
 ## Section: 20
-### Observer
+### Observer (Behavioral Pattern)
 
 ## Section: 21
-### State
+### State (Behavioral Pattern)
 
 ## Section: 22
-### Strategy
+### Strategy (Behavioral Pattern)
 
 ## Section: 23
-### Template Method
+### Template Method (Behavioral Pattern)
 
 ## Section: 24
-### Visitor
+### Visitor (Behavioral Pattern)
 
 ## Section: 25
 ### Course Summary
@@ -241,3 +241,5 @@ namespace DesignPatters_11_Flyweight_2.Exercise
 
 ## Usefull Links
 - [GOF Explanation](https://springframework.guru/gang-of-four-design-patterns/)
+- [Null Object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern)
+- [Udemy Course - Design Patterns in C# and .NET](https://www.udemy.com/design-patterns-csharp-dotnet/)
