@@ -1,11 +1,7 @@
 # Design Patterns in C#
 
-<p align="center">
-  <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF.png" />
-</p>
-
 ## Introduction
-- It is a udemy course to understand more about Design Patterns in C#, based on GOF and Uncle Bob Books.
+- It is a udemy course to understand more about SOLID and Design Patterns in C#, based on GOF and Uncle Bob Books.
 
 # The SOLID Design Principles
 
@@ -48,6 +44,10 @@ para não obrigar os implementadores a criarem especificações de funções que
 - Dada uma propriedade/field que desejamos que seja privada, porém acessivel, devemos implementar um acessor(interface/método) para somente acessar seu valor.
 
 # Design Patterns
+
+<p align="center">
+  <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF.png" />
+</p>
 
 ## Section: 2
 ### Builder (Creational Pattern)
