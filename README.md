@@ -7,15 +7,15 @@ It is a udemy course to understand more about Design Patterns in C#
 ## Section: 1
 ### The SOLID Design Principles
 ### - Single Responsability Principle (SRP):
-Uma classe ou método não deve ter mais de uma responsabilidade.
+- Uma classe ou método não deve ter mais de uma responsabilidade.
 
 ### - Open Closed Principle: 
-Um objeto deve estar fechado para modificações como por exemplo, adicionar mais funções/métodos na mesma classe causando assim uma modificação do objeto (classe).
-Porém ele deve estar aberto para extensões, como por exemplo estar habilitado para aceitar novas funções/método de filtro no sistema porém em suas classes especificas.
+- Um objeto deve estar fechado para modificações como por exemplo, adicionar mais funções/métodos na mesma classe causando assim uma modificação do objeto (classe).
+- Porém ele deve estar aberto para extensões, como por exemplo estar habilitado para aceitar novas funções/método de filtro no sistema porém em suas classes especificas.
 
 ### - Liskov Substitution Principle: 
-Classes que serão herdadas devem ser criadas de uma maneira que seja possível fazer uma reescrita de seus métodos e propriedades sem impactar o comportamento do objeto PAI.
-Basicamente o Pai pelo Filho e o Filho pelo Pai.
+- Classes que serão herdadas devem ser criadas de uma maneira que seja possível fazer uma reescrita de seus métodos e propriedades sem impactar o comportamento do objeto PAI.
+- Basicamente o Pai pelo Filho e o Filho pelo Pai.
 
 Liskov Ex: 
 ```
@@ -37,72 +37,72 @@ public class Child : Parent
 ```
 
 ### - Interface Segregation Principle: 
-As interfaces que especificam as funcionalidades de seus implementadores devem ser criadas de forma granular, 
+- As interfaces que especificam as funcionalidades de seus implementadores devem ser criadas de forma granular, 
 para não obrigar os implementadores a criarem especificações de funções que não façam parte de seu escopo.
 
 ### - Dependency Inversion Principle: 
-Dada uma propriedade/field que desejamos que seja privada, porém acessivel, devemos implementar um acessor(interface/método) para somente acessar seu valor.
+- Dada uma propriedade/field que desejamos que seja privada, porém acessivel, devemos implementar um acessor(interface/método) para somente acessar seu valor.
 
 ## Section: 2
 ### - Builder (Creational Pattern)
-É um padrão que auxilia na criação de um objeto, a partir de pedaços menores, fazendo a construção pedaço por pedaço.
+- É um padrão que auxilia na criação de um objeto, a partir de pedaços menores, fazendo a construção pedaço por pedaço.
 
+Ex:
 ```
-	Ex:
-		public class Carro
-		{
-			public int Rodas;
-			public int Portas;
-			public int CapacidadeCombustivel;
-		}
-		
-		public class CarroBuilder
-		{
-			private Carro _carro;
-			
-			public CarroBuilder(Carro carro)
-			{
-				_carro = carro;
-			}
-			
-			public CarroBuilder AddRodas(int rodas)
-			{
-				_carro.Rodas += rodas;
-				return this;
-			}
-			
-			public CarroBuilder AddPortas(int portas)
-			{
-				_carro.Portas += portas;
-				return this;
-			}
-			
-			public CarroBuilder AddCapacidadeCombustivel(int capacidadeCombustivel)
-			{
-				_carro.CapacidadeCombustivel += capacidadeCombustivel;
-				return this;
-			}
-		}
-		
-		public class Program
-		{
-			static void Main(string[] args)
-			{
-				var carro = new Carro();
-				var carroBuilder = new CarroBuilder(carro);
-				
-				carroBuilder
-					.AddRodas(1)
-					.AddRodas(3)
-					.AddPortas(2)
-					.AddPortas(2)
-					.AddCapacidadeCombustivel(200);
-					
-				Console.WriteLine(carro.Rodas);
-				Console.WriteLine(carro.Portas);
-				Console.WriteLine(carro.CapacidadeCombustivel);
-			}
-		}
+public class Carro
+{
+	public int Rodas;
+	public int Portas;
+	public int CapacidadeCombustivel;
+}
+
+public class CarroBuilder
+{
+	private Carro _carro;
+
+	public CarroBuilder(Carro carro)
+	{
+		_carro = carro;
+	}
+
+	public CarroBuilder AddRodas(int rodas)
+	{
+		_carro.Rodas += rodas;
+		return this;
+	}
+
+	public CarroBuilder AddPortas(int portas)
+	{
+		_carro.Portas += portas;
+		return this;
+	}
+
+	public CarroBuilder AddCapacidadeCombustivel(int capacidadeCombustivel)
+	{
+		_carro.CapacidadeCombustivel += capacidadeCombustivel;
+		return this;
+	}
+}
+
+public class Program
+{
+	static void Main(string[] args)
+	{
+		var carro = new Carro();
+		var carroBuilder = new CarroBuilder(carro);
+
+		carroBuilder
+			.AddRodas(1)
+			.AddRodas(3)
+			.AddPortas(2)
+			.AddPortas(2)
+			.AddCapacidadeCombustivel(200);
+
+		Console.WriteLine(carro.Rodas);
+		Console.WriteLine(carro.Portas);
+		Console.WriteLine(carro.CapacidadeCombustivel);
+	}
+}
 ```
 
 ## Section: 3
@@ -139,52 +139,52 @@ faz necessária a sua exposição toda à todos os seus consumidores, mas sendo 
 ### Flyweight
 - Quando um dado/objeto é replicado e você somente precisa da "referencia" dele, uma maneira de tratar esse caso seria usando o Pattern Flyweight.
 
-```
-	Ex:
-		using System.Collections.Generic;
-		using static System.Console;
+Ex:
+```	
+using System.Collections.Generic;
+using static System.Console;
 
-		namespace DesignPatters_11_Flyweight_2.Exercise
+namespace DesignPatters_11_Flyweight_2.Exercise
+{
+	public class Sentence
+	{
+		private string[] words;
+		private Dictionary<int, WordToken> _tokens = new Dictionary<int, WordToken>();
+
+		public Sentence(string plainText)
 		{
-			public class Sentence
+			words = plainText.Split(' ');
+		}
+
+		public WordToken this[int index]
+		{
+			get
 			{
-				private string[] words;
-				private Dictionary<int, WordToken> _tokens = new Dictionary<int, WordToken>();
-
-				public Sentence(string plainText)
-				{
-					words = plainText.Split(' ');
-				}
-
-				public WordToken this[int index]
-				{
-					get
-					{
-						WordToken wt = new WordToken();
-						_tokens.Add(index, wt);
-						return _tokens[index];
-					}
-				}
-
-				public override string ToString()
-				{
-					var ws = new List<string>();
-					for (var i = 0; i < words.Length; i++)
-					{
-						var w = words[i];
-						if (_tokens.ContainsKey(i) && _tokens[i].Capitalize)
-							w = w.ToUpperInvariant();
-						ws.Add(w);
-					}
-					return string.Join(" ", ws);
-				}
-
-				public class WordToken
-				{
-					public bool Capitalize;
-				}
+				WordToken wt = new WordToken();
+				_tokens.Add(index, wt);
+				return _tokens[index];
 			}
 		}
+
+		public override string ToString()
+		{
+			var ws = new List<string>();
+			for (var i = 0; i < words.Length; i++)
+			{
+				var w = words[i];
+				if (_tokens.ContainsKey(i) && _tokens[i].Capitalize)
+					w = w.ToUpperInvariant();
+				ws.Add(w);
+			}
+			return string.Join(" ", ws);
+		}
+
+		public class WordToken
+		{
+			public bool Capitalize;
+		}
+	}
+}
 ```
 
 ## Section: 12
