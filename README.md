@@ -113,6 +113,7 @@ public class Program
 
 ## Section: 3
 ### Factories (Creational Pattern)
+- Uma Factory é um componente responsavel pela criação de um Objeto completo e não pedeço por pedaço.
 
 ## Section: 4
 ### Prototype (Creational Pattern)
