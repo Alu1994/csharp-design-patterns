@@ -197,6 +197,11 @@ namespace DesignPatters_11_Flyweight_2.Exercise
 
 ## Section: 12
 ### Proxy (Structural Pattern)
+- O Padrão Proxy serve para adicionar mais funcionalidades a uma interface existente.
+- Por exemplo, você possui uma interface "ICarro" e você também possui uma classe "Carro" que implementa essa interface que possui o método "Dirigir". 
+Caso você queira implementar uma funcionalidade de verificação de idade para dirigir esse carro, uma maneira interessante de resolver essa questão seria, criar uma classe
+"CarroProxy" que teria a inteligencia de verificar a Idade do "Motorista" utilizando o próprio método "Dirigir" da interface, assim mantendo a implementação da mesma, 
+porém adicionando mais uma funcionalidade, e depois da verificação chamar o método "Dirigir" da classe "Carro".
 
 ## Section: 13
 ### Chain of Responsibility (Behavioral Pattern)
