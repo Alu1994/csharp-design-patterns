@@ -1,4 +1,4 @@
-﻿using OpenClosedPrinciple.Combinator;
+using OpenClosedPrinciple.Combinator;
 using System;
 using static System.Console;
 

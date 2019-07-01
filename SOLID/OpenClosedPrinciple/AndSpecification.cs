@@ -1,4 +1,4 @@
-﻿using OpenClosedPrinciple.Specification;
+using OpenClosedPrinciple.Specification;
 using System;
 
 namespace OpenClosedPrinciple.Combinator

@@ -152,7 +152,7 @@ Ex:
 using System.Collections.Generic;
 using static System.Console;
 
-namespace DesignPatters_11_Flyweight_2.Exercise
+namespace DesignPatterns_11_Flyweight_2.Exercise
 {
 	public class Sentence
 	{

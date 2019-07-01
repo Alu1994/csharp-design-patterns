@@ -1,4 +1,4 @@
-﻿namespace LiskovSubstitutionPrinciple
+namespace LiskovSubstitutionPrinciple
 {
     public class Rectangle
     {

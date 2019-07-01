@@ -1,4 +1,4 @@
-﻿using InterfaceSegregationPrinciple.Interfaces;
+using InterfaceSegregationPrinciple.Interfaces;
 using static System.Console;
 
 namespace InterfaceSegregationPrinciple

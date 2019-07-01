@@ -1,4 +1,4 @@
-﻿using OpenClosedPrinciple.Specification;
+using OpenClosedPrinciple.Specification;
 using System;
 using System.Collections.Generic;
 

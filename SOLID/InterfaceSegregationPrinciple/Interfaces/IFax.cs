@@ -1,4 +1,4 @@
-﻿namespace InterfaceSegregationPrinciple.Interfaces
+namespace InterfaceSegregationPrinciple.Interfaces
 {
     public interface IFax
     {

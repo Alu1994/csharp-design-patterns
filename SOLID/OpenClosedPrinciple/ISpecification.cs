@@ -1,4 +1,4 @@
-﻿namespace OpenClosedPrinciple.Specification
+namespace OpenClosedPrinciple.Specification
 {
     public interface ISpecification<T>
     {

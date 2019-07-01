@@ -1,4 +1,4 @@
-﻿namespace InterfaceSegregationPrinciple
+namespace InterfaceSegregationPrinciple
 {
     public class Document
     {
