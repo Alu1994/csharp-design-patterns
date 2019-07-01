@@ -253,4 +253,5 @@ namespace DesignPatters_11_Flyweight_2.Exercise
 # Agradecimentos
 - Thank you [Dmitri](https://github.com/nesteruk) for the exceptional course, it is being amazing learning all that good stuff!
 - Obrigado [Carlão](https://github.com/ecezareti) pelos ensinamentos e pelas várias dicas de estudos que tive ao longo do tempo em que estivemos no mesmo time, e que até hoje segue me instruindo. Com você tive um incrivel exemplo de profissional e de mentor (mesmo me zuando muito kkk) que espero levar comigo por toda minha carreira, e que com o tempo eu consiga distribuir com outras pessoas, da mesma maneira que foi feito comigo.
+- Obrigado [Hara](https://github.com/leandroharaoka) por estudar junto comigo e por tirar várias dúvidas comigo, acabei aprendendo mais ainda contigo, valeu man!
 - Obrigado à todos os meus colegas de trabalho até o presente momento, sei que aprendi com todos, mesmo que tenha sido pelo menos um **if** rs.
