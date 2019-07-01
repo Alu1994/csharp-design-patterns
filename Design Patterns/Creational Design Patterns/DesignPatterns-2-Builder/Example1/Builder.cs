@@ -1,9 +1,9 @@
-﻿using DesignPatters_2.Example1;
+using DesignPatterns_2.Example1;
 using System;
 using System.Text;
 using static System.Console;
 
-namespace DesignPatters_2
+namespace DesignPatterns_2
 {
     public class Builder
     {

@@ -1,4 +1,4 @@
-﻿using Autofac;
+using Autofac;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Collections.ObjectModel;
 using System.Text;
 using static System.Console;
 
-namespace DesignPatters_8_Composite.Example2
+namespace DesignPatterns_8_Composite.Example2
 {
     public class CompositeExample__NeuronNetworks__RedesNeurais
     {

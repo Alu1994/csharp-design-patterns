@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -7,7 +7,7 @@ using System.Security.AccessControl;
 using MoreLinq;
 using static System.Console;
 
-namespace DesignPatters_6_Adapter.Example2
+namespace DesignPatterns_6_Adapter.Example2
 {
     public class AdapterCaching
     {

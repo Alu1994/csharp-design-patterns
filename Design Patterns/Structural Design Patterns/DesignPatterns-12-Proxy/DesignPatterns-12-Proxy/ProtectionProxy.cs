@@ -1,4 +1,4 @@
-﻿using static System.Console;
+using static System.Console;
 
 namespace DesignPatterns_12_Proxy
 {

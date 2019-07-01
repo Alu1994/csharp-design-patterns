@@ -1,4 +1,4 @@
-﻿namespace DesignPatters_2.Example2
+namespace DesignPatterns_2.Example2
 {
     public abstract class PersonBuilder
     {

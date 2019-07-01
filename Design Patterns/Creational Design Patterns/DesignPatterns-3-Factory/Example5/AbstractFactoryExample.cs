@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using static System.Console;
 
-namespace DesignPatters_3_Factory.Example5
+namespace DesignPatterns_3_Factory.Example5
 {
 
     // Still Violates the Open Closed Principle

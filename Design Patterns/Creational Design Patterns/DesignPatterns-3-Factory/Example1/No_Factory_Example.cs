@@ -1,6 +1,6 @@
-﻿using System;
+using System;
 
-namespace DesignPatters_3_Factory.Example1
+namespace DesignPatterns_3_Factory.Example1
 {
 
     public enum CoordinateSystem

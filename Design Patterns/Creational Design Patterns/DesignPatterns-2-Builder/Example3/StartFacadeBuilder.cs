@@ -1,6 +1,6 @@
-﻿using static System.Console;
+using static System.Console;
 
-namespace DesignPatters_2.Example3
+namespace DesignPatterns_2.Example3
 {
     public class StartFacadeBuilder
     {

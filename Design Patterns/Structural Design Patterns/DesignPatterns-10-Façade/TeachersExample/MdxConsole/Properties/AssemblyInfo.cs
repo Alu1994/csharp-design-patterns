@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("Default")]
 [assembly: AssemblyCompany("Dmitri Nesteruk")]
 [assembly: AssemblyProduct("MdxConsole")]
-[assembly: AssemblyCopyright("Copyright © 2008 Dmitri Nesteruk")]
+[assembly: AssemblyCopyright("Copyright ï¿½ 2008 Dmitri Nesteruk")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

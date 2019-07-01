@@ -1,11 +1,11 @@
-﻿using Autofac;
+using Autofac;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
 using static System.Console;
 
-namespace DesignPatters_8_Composite.Example1
+namespace DesignPatterns_8_Composite.Example1
 {
     public class CompositeExample
     {

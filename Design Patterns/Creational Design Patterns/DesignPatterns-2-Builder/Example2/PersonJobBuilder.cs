@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace DesignPatters_2.Example2
+namespace DesignPatterns_2.Example2
 {
     public class PersonJobBuilder<SELF> 
         : PersonInfoBuilder<PersonJobBuilder<SELF>>

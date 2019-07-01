@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using static System.Console;
 
-namespace DesignPatters_4_Prototype.Example1
+namespace DesignPatterns_4_Prototype.Example1
 {
     public class PrototypeExampleBadCopy
     {

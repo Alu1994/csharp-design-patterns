@@ -1,10 +1,10 @@
-﻿using MoreLinq;
+using MoreLinq;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using static System.Console;
 
-namespace DesignPatters_6_Adapter.Example1
+namespace DesignPatterns_6_Adapter.Example1
 {
     public class AdapterExample
     {

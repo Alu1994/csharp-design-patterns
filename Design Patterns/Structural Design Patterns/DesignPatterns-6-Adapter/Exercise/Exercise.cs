@@ -1,6 +1,6 @@
-﻿using static System.Console;
+using static System.Console;
 
-namespace DesignPatters_6_Adapter.Exercise
+namespace DesignPatterns_6_Adapter.Exercise
 {
     public class Square
     {

@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using static System.Console;
 
-namespace DesignPatters_2.Exercise // Coding.Exercise
+namespace DesignPatterns_2.Exercise // Coding.Exercise
 {
     public class Start
     {

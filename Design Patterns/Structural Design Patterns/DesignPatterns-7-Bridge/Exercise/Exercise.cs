@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using static System.Console;
 
-namespace DesignPatters_7_Bridge.Exercise
+namespace DesignPatterns_7_Bridge.Exercise
 {
     public class Exercise
     {

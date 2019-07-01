@@ -1,10 +1,10 @@
-﻿using Autofac;
+using Autofac;
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using static System.Console;
 
-namespace DesignPatters_7_Bridge.Example1
+namespace DesignPatterns_7_Bridge.Example1
 {
     public class BridgeExample
     {

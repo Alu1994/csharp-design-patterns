@@ -1,9 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using static System.Console;
 
-namespace DesignPatters_2.Example2
+namespace DesignPatterns_2.Example2
 {
     internal class Start
     {

@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using static System.Console;
 
-namespace DesignPatters_4_Prototype.Example2
+namespace DesignPatterns_4_Prototype.Example2
 {
     //This is a C++ kind of copy
     public class PrototypeExampleCopyConstructors

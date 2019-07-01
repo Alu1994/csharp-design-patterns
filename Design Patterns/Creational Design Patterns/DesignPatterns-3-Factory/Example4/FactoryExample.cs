@@ -1,7 +1,7 @@
-﻿using System;
+using System;
 using static System.Console;
 
-namespace DesignPatters_3_Factory.Example4
+namespace DesignPatterns_3_Factory.Example4
 {
     class FactoryExample4
     {

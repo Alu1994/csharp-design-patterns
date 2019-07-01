@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using static System.Console;
 
-namespace DesignPatters_3_Factory.Example6
+namespace DesignPatterns_3_Factory.Example6
 {
     public class AbstractFactoryExample
     {

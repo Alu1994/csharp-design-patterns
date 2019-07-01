@@ -1,8 +1,8 @@
-﻿using System;
+using System;
 using System.Text;
 using static System.Console;
 
-namespace DesignPatters_2
+namespace DesignPatterns_2
 {
     public class WithoutBuilder
     {

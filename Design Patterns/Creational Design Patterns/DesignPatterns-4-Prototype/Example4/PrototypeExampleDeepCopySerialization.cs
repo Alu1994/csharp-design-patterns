@@ -1,10 +1,10 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.Xml.Serialization;
 using static System.Console;
 
-namespace DesignPatters_4_Prototype.Example4
+namespace DesignPatterns_4_Prototype.Example4
 {
     public class PrototypeExampleDeepCopySerialization
     {
