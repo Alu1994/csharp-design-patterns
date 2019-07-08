@@ -6,7 +6,7 @@ namespace DesignPatterns_12_Proxy
 {
     class PropertyProxy
     {
-        static void Main(string[] args)
+        static void Main_s(string[] args)
         {
             var c = new Creature();
             c.Agility = 10;  // c.set_Agility(10); Not
