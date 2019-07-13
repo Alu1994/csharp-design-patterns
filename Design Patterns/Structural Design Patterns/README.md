@@ -1,4 +1,4 @@
-# Structural Pattern
+# Structural Patterns
 
 ## Adapter
 
