@@ -5,6 +5,12 @@
 
 # [The SOLID Design Principles](https://github.com/matsennin/csharp-design-patterns/blob/master/SOLID/SOLID_README.md)
 
+### - Single Responsibility Principle (SRP)
+### - Open Closed Principle
+### - Liskov Substitution Principle
+### - Interface Segregation Principle
+### - Dependency Inversion Principle
+
 # [Design Patterns](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/DesignPatterns_README.md)
 
 <p align="center">
