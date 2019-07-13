@@ -1,7 +1,7 @@
 # Design Patterns
 
 <p align="center">
-  <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF.png" />
+  <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/GammaCategorizationGOF.png" />
 </p>
 
 <hr>
