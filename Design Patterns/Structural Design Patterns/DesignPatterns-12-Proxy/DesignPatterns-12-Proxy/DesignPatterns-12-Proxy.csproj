@@ -6,4 +6,8 @@
     <RootNamespace>DesignPatterns_12_Proxy</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="ImpromptuInterface" Version="7.0.1" />
+  </ItemGroup>
+
 </Project>

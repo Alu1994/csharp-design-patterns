@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace DesignPatterns_12_Proxy
+namespace DesignPatterns_12_Proxy.Value
 {
     class ValueProxy
     {

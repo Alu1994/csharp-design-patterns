@@ -1,6 +1,6 @@
 using static System.Console;
 
-namespace DesignPatterns_12_Proxy
+namespace DesignPatterns_12_Proxy.Protection
 {
     class ProtectionProxy
     {

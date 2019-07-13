@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using static System.Console;
 
-namespace DesignPatterns_12_Proxy
+namespace DesignPatterns_12_Proxy.Property
 {
     class PropertyProxy
     {
@@ -13,11 +13,14 @@ namespace DesignPatterns_12_Proxy
                              // c.Agility = new Property<int>(10)
             c.Agility = 20;
 
+            c.Agility = 30;
+
             WriteLine(c.Agility);
 
             var c2 = new Creature2();
             c2.Agility = 10;
-            c2.Agility = 10;
+            c2.Agility = 20;
+            c2.Agility = 30;
 
             WriteLine(c2.Agility);
         }
