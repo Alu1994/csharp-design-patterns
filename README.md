@@ -27,7 +27,7 @@
 
 ## Usefull Links
 - [GOF Explanation](https://springframework.guru/gang-of-four-design-patterns/)
-- [Null Object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern/)
+- [Null Object Pattern](https://en.wikipedia.org/wiki/Null_object_pattern)
 - [Udemy Course - Design Patterns in C# and .NET](https://www.udemy.com/design-patterns-csharp-dotnet/)
 
 ## Agradecimentos
