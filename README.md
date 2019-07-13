@@ -3,9 +3,7 @@
 ## Introduction
 - This repository has the mission to gather all the knowlegde of what i understood about SOLID and Design Patterns in C# from a Udemy Course, that was based on GOF and Uncle Bob Books.
 
-# The SOLID Design Principles
-
-[SOLID](https://github.com/matsennin/csharp-design-patterns/blob/master/SOLID/SOLID_README.md)
+# [The SOLID Design Principles](https://github.com/matsennin/csharp-design-patterns/blob/master/SOLID/SOLID_README.md)
 
 # Design Patterns
 
