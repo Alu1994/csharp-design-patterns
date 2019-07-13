@@ -4,77 +4,11 @@
   <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF.png" />
 </p>
 
-## Section: 2
-### Builder (Creational Pattern)
-- É um padrão que auxilia na criação de um objeto, a partir de pedaços menores, fazendo a construção pedaço por pedaço.
+## [Creational Pattern](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Creational%20Design%20Patterns/README.md)
 
-Ex:
-```
-public class Carro
-{
-	public int Rodas;
-	public int Portas;
-	public int CapacidadeCombustivel;
-}
+## [Structural Pattern](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Structural%20Design%20Patterns/README.md)
 
-public class CarroBuilder
-{
-	private Carro _carro;
-
-	public CarroBuilder(Carro carro)
-	{
-		_carro = carro;
-	}
-
-	public CarroBuilder AddRodas(int rodas)
-	{
-		_carro.Rodas += rodas;
-		return this;
-	}
-
-	public CarroBuilder AddPortas(int portas)
-	{
-		_carro.Portas += portas;
-		return this;
-	}
-
-	public CarroBuilder AddCapacidadeCombustivel(int capacidadeCombustivel)
-	{
-		_carro.CapacidadeCombustivel += capacidadeCombustivel;
-		return this;
-	}
-}
-
-public class Program
-{
-	static void Main(string[] args)
-	{
-		var carro = new Carro();
-		var carroBuilder = new CarroBuilder(carro);
-
-		carroBuilder
-			.AddRodas(1)
-			.AddRodas(3)
-			.AddPortas(2)
-			.AddPortas(2)
-			.AddCapacidadeCombustivel(200);
-
-		Console.WriteLine(carro.Rodas);
-		Console.WriteLine(carro.Portas);
-		Console.WriteLine(carro.CapacidadeCombustivel);
-	}
-}
-```
-
-## Section: 3
-### Factories (Creational Pattern)
-- Uma Factory é um componente responsavel pela criação de um Objeto completo e não pedeço por pedaço.
-
-## Section: 4
-### Prototype (Creational Pattern)
-
-## Section: 5
-### Singleton (Creational Pattern)
+## [Behavioral Pattern](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Behavioral%20Design%20Patterns/README.md)
 
 ## Section: 6
 ### Adapter (Structural Pattern)
