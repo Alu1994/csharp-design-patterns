@@ -6,8 +6,22 @@
 
 <hr>
 
-- **[Creational Pattern](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Creational%20Design%20Patterns/README.md)**
-
-- **[Structural Pattern](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Structural%20Design%20Patterns/README.md)**
-
-- **[Behavioral Pattern](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Behavioral%20Design%20Patterns/README.md)**
+<h2>
+  <ul>
+    <li>
+      <a href="https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Creational%20Design%20Patterns/README.md">
+        Creational Patterns
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Structural%20Design%20Patterns/README.md">
+        Structural Patterns
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/Behavioral%20Design%20Patterns/README.md">
+        Behavioral Patterns
+      </a>
+    </li>
+  </ul>
+</h2>
