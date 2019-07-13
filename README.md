@@ -3,7 +3,7 @@
 ## Introduction
 - This repository has the mission to gather all the knowlegde of what i understood about SOLID and Design Patterns in C# from a Udemy Course, that was based on GOF and Uncle Bob Books.
 
-# [The SOLID Design Principles](https://github.com/matsennin/csharp-design-patterns/blob/master/SOLID/SOLID_README.md)
+# [The SOLID Design Principles](https://github.com/matsennin/csharp-design-patterns/blob/master/SOLID/README.md)
 
 - Single Responsibility Principle (SRP)
 - Open Closed Principle
@@ -11,7 +11,7 @@
 - Interface Segregation Principle
 - Dependency Inversion Principle
 
-# [Design Patterns](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/DesignPatterns_README.md)
+# [Design Patterns](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/README.md)
 
 - Creational Patterns
 - Structural Patterns
