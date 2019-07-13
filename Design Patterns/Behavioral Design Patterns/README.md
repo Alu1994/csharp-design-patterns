@@ -20,7 +20,7 @@
 - Fornece a capacidade de restaurar um objeto ao seu estado anterior.
 
 ## Null Object
-- 
+- Na maioria das linguagens orientadas a objetos, como Java ou C #, as referências podem ser nulas. Essas referências precisam ser verificadas para garantir que elas não sejam nulas antes de chamar qualquer método, porque os métodos geralmente não podem ser chamados em referências nulas.
 
 ## Observer
 - É um padrão de publicação / assinatura que permite que vários objetos observadores vejam um evento.
