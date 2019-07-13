@@ -13,11 +13,9 @@
 
 # [Design Patterns](https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/DesignPatterns_README.md)
 
-<p align="center">
-   <a href="https://github.com/matsennin/csharp-design-patterns/blob/master/Design%20Patterns/DesignPatterns_README.md" target="blank">
-      <img src="https://github.com/matsennin/csharp-design-patterns/blob/master/GammaCategorizationGOF.png" />
-   </a>
-</p>
+### - Creational Patterns
+### - Structural Patterns
+### - Behavioral Patterns
 
 # Conclusion
 
