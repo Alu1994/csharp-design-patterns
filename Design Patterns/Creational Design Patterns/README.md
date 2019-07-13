@@ -1,6 +1,7 @@
 # Creational Patterns
 
 ## Builder
+- Usado para criar objetos complexos.
 - É um padrão que auxilia na criação de um objeto, a partir de pedaços menores, fazendo a construção pedaço por pedaço.
 
 Ex:
@@ -61,9 +62,13 @@ public class Program
 }
 ```
 
-## Factories
+## Factory
+- Abstract Factory: Permite a criação de objetos sem especificar seu tipo concreto.
+- Factory Method: Cria objetos sem especificar a classe exata a ser criada.
 - Uma Factory é um componente responsavel pela criação de um Objeto completo e não pedeço por pedaço.
 
 ## Prototype
+- Cria um novo objeto de um objeto existente.
 
 ## Singleton
+- Garante que apenas uma instância de um objeto seja criada.
