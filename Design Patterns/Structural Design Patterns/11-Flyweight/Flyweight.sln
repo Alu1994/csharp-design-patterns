@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns-11-Flyweight", "DesignPatterns-11-Flyweight_1\DesignPatterns-11-Flyweight.csproj", "{E904DDE7-0072-4E88-B56F-0AC8625BDE70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight_1", "Flyweight\Flyweight_1\Flyweight_1.csproj", "{E904DDE7-0072-4E88-B56F-0AC8625BDE70}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns-11-Flyweight_2", "DesignPatterns-11-Flyweight_2\DesignPatterns-11-Flyweight_2.csproj", "{6A0F6AF8-E395-4AE4-875A-FFC6EB62A491}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight_2", "Flyweight\Flyweight_2\Flyweight_2.csproj", "{6A0F6AF8-E395-4AE4-875A-FFC6EB62A491}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
