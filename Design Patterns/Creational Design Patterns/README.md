@@ -62,7 +62,7 @@ public class Program
 }
 ```
 
-## Factory
+## [Factory](https://github.com/matsennin/csharp-design-patterns/tree/master/Design%20Patterns/Creational%20Design%20Patterns/3-Factory)
 - Abstract Factory: Permite a criação de objetos sem especificar seu tipo concreto.
 - Factory Method: Cria objetos sem especificar a classe exata a ser criada.
 - Uma Factory é um componente responsavel pela criação de um Objeto completo e não pedeço por pedaço.
