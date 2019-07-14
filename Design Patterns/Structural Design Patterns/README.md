@@ -1,4 +1,4 @@
-# Structural Patterns
+# [Structural Patterns](https://github.com/matsennin/csharp-design-patterns/tree/master/Design%20Patterns/Structural%20Design%20Patterns)
 
 ## Adapter
 - Permite que duas classes incompatíveis trabalhem juntas envolvendo uma interface em torno de uma das classes existentes.
