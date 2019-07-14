@@ -67,8 +67,8 @@ public class Program
 - Factory Method: Cria objetos sem especificar a classe exata a ser criada.
 - Uma Factory é um componente responsavel pela criação de um Objeto completo e não pedeço por pedaço.
 
-## Prototype
+## [Prototype](https://github.com/matsennin/csharp-design-patterns/tree/master/Design%20Patterns/Creational%20Design%20Patterns/4-Prototype)
 - Cria um novo objeto de um objeto existente.
 
-## Singleton
+## [Singleton](https://github.com/matsennin/csharp-design-patterns/tree/master/Design%20Patterns/Creational%20Design%20Patterns/5-Singleton)
 - Garante que apenas uma instância de um objeto seja criada.
