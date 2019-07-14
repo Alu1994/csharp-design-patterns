@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Security.Cryptography;
 using static System.Console;
 
 namespace DesignPatterns_13_Chain_of_Responsibility.MethodChain
