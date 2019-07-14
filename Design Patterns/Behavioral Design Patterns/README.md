@@ -1,6 +1,6 @@
 # Behavioral Patterns
 
-## Chain of Responsibility
+## [Chain of Responsibility](https://github.com/matsennin/csharp-design-patterns/tree/master/Design%20Patterns/Behavioral%20Design%20Patterns/13-Chain-of-Responsibility)
 - Delega comandos a uma cadeia de objetos de processamento.
 
 ## Command
