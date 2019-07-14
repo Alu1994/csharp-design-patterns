@@ -12,7 +12,7 @@
 ## Iterator
 - Acessa os elementos de um objeto seqüencialmente sem expor sua representação subjacente.
 
-## Mediator
+## [Mediator](https://github.com/matsennin/csharp-design-patterns/tree/master/Design%20Patterns/Behavioral%20Design%20Patterns/17-Mediator)
 - Permite o baixo acoplamento entre classes, sendo a única classe que possui conhecimento detalhado de seus métodos.
 - Pelo que eu entendi, acredito que o padrão mediator serve para comunicação entre entidades que possuem relacionamento, porém não podem estar fortemente referenciadas umas nas outras. Um caminho interessante seria usar o padrão mediator, assim cada "broker" ou "handler" tem por missão fazer a comunicação entre essas entidades ou objetos.
 
