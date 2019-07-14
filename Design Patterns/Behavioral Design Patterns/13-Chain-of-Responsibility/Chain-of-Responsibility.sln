@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns-13-Chain-of-Responsibility", "DesignPatterns-13-Chain-of-Responsibility\DesignPatterns-13-Chain-of-Responsibility.csproj", "{084CECC8-5800-410E-B977-42E7D870B4C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain-of-Responsibility", "Chain-of-Responsibility\Chain-of-Responsibility.csproj", "{084CECC8-5800-410E-B977-42E7D870B4C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
