@@ -1,6 +1,6 @@
-# The SOLID Design Principles
+# [The SOLID Design Principles](https://github.com/matsennin/csharp-design-patterns/tree/master/SOLID)
 
-## Single Responsibility Principle (SRP):
+## [Single Responsibility Principle (SRP):](https://github.com/matsennin/csharp-design-patterns/tree/master/SOLID/SingleResponsibilityPrinciple)
 - Uma classe ou método não deve ter mais de uma responsabilidade.
 
 ## Open Closed Principle: 
