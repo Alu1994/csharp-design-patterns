@@ -94,7 +94,7 @@ namespace Behavioral.Command
 
     class Command
     {
-        static void Main(string[] args)
+        static void Main_s(string[] args)
         {
             var ba = new BankAccount();
             var commands = new List<BankAccountCommand>
