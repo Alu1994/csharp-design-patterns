@@ -11,10 +11,10 @@ namespace Interpreter
         static void Main(string[] args)
         {
             var input = "(13+4)-(12+1)";
-            var tokens = Lex(input);
+            var tokens = Demo.Lex(input);
             WriteLine(string.Join("\t", tokens));
 
-            var parsed = Parse(tokens);
+            var parsed = Demo.Parse(tokens);
             WriteLine($"{input} = {parsed.Value}");
         }
     }
@@ -84,9 +84,9 @@ namespace Interpreter
         }
     }
 
-    public class Demo
+    public static class Demo
     {
-        static List<Token> Lex(string input)
+        public static List<Token> Lex(string input)
         {
             var result = new List<Token>();
 
@@ -128,7 +128,7 @@ namespace Interpreter
             return result;
         }
 
-        static IElement Parse(IReadOnlyList<Token> tokens)
+        public static IElement Parse(IReadOnlyList<Token> tokens)
         {
             var result = new BinaryOperation();
             bool haveLHS = false;
