@@ -8,7 +8,7 @@ namespace Interpreter
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main_2(string[] args)
         {
             var input = "(13+4)-(12+1)";
             var tokens = Demo.Lex(input);
